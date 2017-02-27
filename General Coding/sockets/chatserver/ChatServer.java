@@ -23,6 +23,8 @@ public class ChatServer {
 			while(true){
 				incomingSocket = ServerSocket.accept();
 				System.out.println("incoming socket request received"+incomingSocket.getInetAddress().toString());
+				
+				
 			}
 				
 			/*BufferedReader br = new BufferedReader(new InputStreamReader(incomingSocket.getInputStream()));
